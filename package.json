@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/tiurin/frontend-nanodegree-mobile-portfolio/issues"
   },
-  "homepage": "https://github.com/tiurin/frontend-nanodegree-mobile-portfolio#readme"
+  "homepage": "https://github.com/tiurin/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^0.1.9"
+  }
 }
