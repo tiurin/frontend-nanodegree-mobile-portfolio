@@ -12,6 +12,11 @@ module.exports = function(grunt) {
               quality: 60
             },
             {
+              name: '360px',
+              width: '360px',
+              quality: 60
+            },
+            {
               name: 'thumbnail',
               width: '100px',
               quality: 30
