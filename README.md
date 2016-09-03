@@ -36,6 +36,7 @@ What was changed:
 * Use requestAnimationFrame to queue animation changes on scroll events. There are multiple scroll events in a short period of time, let browser decide when is the best time to render changes fired by those scrolls.
 * Move calculations and DOM querying outside loops where possible
 * Calculate loop exit condition once
-* Use more performant Web API methods (`getElementsByClassName` and `getElementById`)
+* Use more performant Web API methods (`getElementsByClassName` and `getElementById`) as described in
+  http://stackoverflow.com/questions/15046356/performance-using-js-queryselector#15046461
 * Reduce number of flying pizzas to only visible for current screen
 * Enable hardware acceleration for moving pizzas
