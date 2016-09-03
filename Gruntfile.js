@@ -20,6 +20,11 @@ module.exports = function(grunt) {
               name: 'thumbnail',
               width: '100px',
               quality: 30
+            },
+            {
+              name: 'slider',
+              width: '205px',
+              quality: 60
             }
           ]
         },
